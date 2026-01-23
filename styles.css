@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap');
+
+
+
 *{
     box-sizing: border-box;
     margin: 0;  
@@ -9,14 +13,15 @@
     margin: 0 auto;
     padding: 20px;
 }
-.real-stories{
+.section-stories{
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.real-stories .title{
+.section-stories .section-header{
+    font-family: 'Gravitas One';
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 40px;    
@@ -31,11 +36,11 @@
     align-items: center;
     grid-gap: 20px;
 }
-.svg svg{
+.icon svg{
     fill:#dceddd;
     width: 50px;
     height: 50px;
 }
-.content_text{
+.card_content{
     padding: 20px 0;
 }
